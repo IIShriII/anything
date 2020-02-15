@@ -1,0 +1,78 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Copperplate Gothic";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+header{
+  height:80px;
+  background-color:#333333;
+  color:#fbc25c;
+}
+header h1{
+ padding:15px 300px 20px 10px;
+ float:left;
+ text-align:right;
+}
+header li {
+  text-align:right;
+  padding :30px 20px;
+  float:left;
+  margin:0 auto;
+}
+header li:hover{
+  opacity:0.6;
+  color:#f7bC13;
+}
+.fa{
+  padding:15px 20px 40px 5px;
+  text-align:right
+}
+.fa:hover{
+  opacity:0.6;
+  color:#f7bc13;
+}
+
+
+.main{
+  background-color:#c9d4c5;
+  
+  
+}
+.main p{
+  padding-left:20px ;
+  padding-right: 20px;
+  text-align:justify;
+  text-align:center;
+}
+footer{
+ 
+  color:#c9d4c5;
+  background-color:#293858;
+}
+footer h2{
+ float:left;
+ padding:5px 170px 5px 5px;
+}
+footer li{
+  text-align:right;
+}
+footer li:hover{
+  opacity:0.7;
+}
+img{
+  padding:50px 10px;
+  padding-bottom: 10px;
+}
